@@ -1,0 +1,16 @@
+{
+  "name": "GitHub - Clone in [OS]",
+  "version": "2.0.0",
+  "description": "Adds a Clone in [OS] button to repositories on GitHub.",
+  "update_url": "https://raw.github.com/sanderv32/github-os-chrome/master/updates.xml",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["github-os-chrome.js"]
+    }
+  ],
+  "permissions": [
+    "https://github.com/"
+  ]
+}
