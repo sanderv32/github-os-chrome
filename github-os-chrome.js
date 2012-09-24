@@ -44,5 +44,4 @@ function createCloneInOSButton() {
 	link.href = githubURL;
 }
 
-debugger;
 createCloneInOSButton();
