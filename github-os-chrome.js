@@ -21,7 +21,7 @@
 
 var osList= {
 	WIN : { ClassName : "mini-icon-windows", URL : "github-windows:", text : "Clone in Windows" },
-	MAC : { ClassName : "btn-clone-in-mac", URL : "github-mac:", text : " Clone in Mac" }
+	MAC : { ClassName : "mini-icon-apple", URL : "github-mac:", text : " Clone in Mac" }
 };
 
 function createCloneInOSButton() {
@@ -44,4 +44,5 @@ function createCloneInOSButton() {
 	link.href = githubURL;
 }
 
+debugger;
 createCloneInOSButton();
